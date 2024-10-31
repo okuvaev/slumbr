@@ -108,7 +108,7 @@ body {
     background-size: contain;
     animation: rotateSmallLuna 30s linear infinite;
     display: block;
-    margin-top: -150px;
+
     margin-left: auto;
     margin-right: auto;
     filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.7));
@@ -139,7 +139,7 @@ body {
 .next-btn {
     width: 100%;
     height: 48px;
-    margin-top: 20px;
+    margin-top: 0;
     background-color: white;
     border: 1px solid #ccc;
     cursor: pointer;
@@ -148,6 +148,7 @@ body {
     border-radius: 25px;
     font-size: 20px;
     filter: drop-shadow(1px 4px 6px gray);
+    color: black;
 }
 .next-btn:hover {
     background-color: gray;
@@ -160,7 +161,7 @@ body {
 .frame-container-plus, .frame-container-mid, .frame-container-minus {
     display: flex;
     flex-wrap: wrap; /* Перенос элементов на следующую строку */
-    margin: 10px 0; /* Отступы между контейнерами */
+    margin: 10px 0px 0px 0px; /* Отступы между контейнерами */
 }
 .frame {
     background-color: rgba(217, 217, 217, 0.2); /* Прозрачный фон */
@@ -245,6 +246,6 @@ h4 {
     font-weight: 600;
     line-height: 28.13px;
     text-align: center;
-    margin-top: -60%;
+    margin-top: -70%;
     filter: drop-shadow(1px 4px 6px gray);
 }
